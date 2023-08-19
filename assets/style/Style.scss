@@ -19,6 +19,12 @@ body {
 	font-family: 'JetBrains';
 	src: url("../fonts/JetBrainsMono-Regular.ttf") format('truetype');
 }
+@mixin div25 {
+	position: relative;
+	height: 25vh;
+	width: 100vw;
+	overflow: hidden;
+}
 @mixin div50 {
 	position: relative;
 	height: 50vh;

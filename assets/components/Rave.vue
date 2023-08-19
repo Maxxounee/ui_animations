@@ -41,7 +41,7 @@ export default {}
             font-weight: bold;
             transform: translate(-50%, -50%) rotateX(calc(var(--i) * 15deg)) translateZ(200px);
             mark {
-                color: $GREEN;
+                color: $GOLD;
             }
         }
     }

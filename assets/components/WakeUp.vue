@@ -56,7 +56,7 @@ export default {}
         transform: rotateX(90deg);
         padding: 0 2rem;
         animation-delay: 1.5s, 1.5s;
-        color: $GREEN;
+        color: $GOLD;
     }
 }
 

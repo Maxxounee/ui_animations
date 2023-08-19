@@ -6,6 +6,7 @@
         <Rocket/>
         <CityLights/>
         <HelloWorld/>
+        <LiveForever/>
     </div>
 </template>
 
@@ -17,9 +18,11 @@ import Rave from "assets/components/Rave.vue";
 import Rocket from "assets/components/Rocket.vue";
 import CityLights from "assets/components/CityLights.vue";
 import HelloWorld from "assets/components/HelloWorld.vue";
+import LiveForever from "assets/components/OpenEyes.vue";
 
 export default {
     components: {
+        LiveForever,
         HelloWorld,
         CityLights,
         WakeUp,

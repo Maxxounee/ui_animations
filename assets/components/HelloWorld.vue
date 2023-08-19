@@ -21,11 +21,11 @@ export default {}
 @import "assets/style/Style.scss";
 .HelloWorld {
     @include flexCenter;
-    @include div50;
+    @include div25;
     background-color: $BLACK;
     color: $WHITE;
     font-size: 20px;
-    @keyframes move {
+    @keyframes HelloWorld_move {
         0% {
             transform: translateY(0);
             opacity: 1;
@@ -51,7 +51,7 @@ export default {}
         color: $GOLD;
     }
     .string {
-        animation: move 4s infinite;
+        animation: HelloWorld_move 6s infinite;
         white-space: nowrap;
         span {
             display: block;

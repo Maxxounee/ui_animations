@@ -1,7 +1,7 @@
 <template>
     <div class="Ghost">
         <div class="title">ghost</div>
-        <img src="@/assets/images/ghost.svg" alt="" class="ghost">
+        <img src="@/assets/images/ghost.svg" alt="ghost" class="ghost">
     </div>
 </template>
 

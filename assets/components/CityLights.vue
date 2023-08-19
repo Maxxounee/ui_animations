@@ -11,7 +11,7 @@ export default {}
 <style lang="scss">
 @import "assets/style/Style.scss";
 .CityLights {
-    @include div50;
+    @include div25;
     @include flexCenter;
     background-color: $BLACK;
     $OFFSET_Y: 0.125em;
@@ -23,32 +23,32 @@ export default {}
     $BLUR_3: 0.125em;
     @keyframes CityLights_shine {
         0% {
-            text-shadow: 1em -0.125em 0.25em rgba($DARK_VIOLET, 0),
-            1em -0.125em 0.25em rgba($DARK_GOLD, 0),
-            -1em -0.125em 0.25em rgba($DARK_BLUE, 0),
-            -1em -0.125em 0.25em rgba($DARK_RED, 0);
+            text-shadow: 1em -0.125em 0.25em rgba($WHITE, 0),
+            1em -0.125em 0.25em rgba($WHITE, 0),
+            -1em -0.125em 0.25em rgba($WHITE, 0),
+            -1em -0.125em 0.25em rgba($WHITE, 0);
         }
         25% {
-            text-shadow: 0.5em -0.125em 0.25em rgba($BLUE, 0.06),
-            0.5em -0.125em 0.15em rgba($GREEN, 0.06),
-            -0.5em -0.125em 0.15em rgba($BLUE, 0.06),
-            -0.5em -0.125em 0.25em rgba($GREEN, 0.06);
+            text-shadow: 0.5em -0.125em 0.1em rgba($WHITE, 0.06),
+            0.5em -0.125em 0.15em rgba($WHITE, 0.06),
+            -0.5em -0.125em 0.15em rgba($WHITE, 0.06),
+            -0.5em -0.125em 0.25em rgba($WHITE, 0.06);
         }
         75% {
-            text-shadow: -0.5em -0.125em 0.15em rgba($GREEN, 0.06),
-            -0.5em -0.125em 0.25em rgba($BLUE, 0.06),
-            0.5em -0.125em 0.25em rgba($GREEN, 0.06),
-            0.5em -0.125em 0.15em rgba($BLUE, 0.06);
+            text-shadow: -0.5em -0.125em 0.1em rgba($WHITE, 0.06),
+            -0.5em -0.125em 0.25em rgba($WHITE, 0.06),
+            0.5em -0.125em 0.25em rgba($WHITE, 0.06),
+            0.5em -0.125em 0.15em rgba($WHITE, 0.06);
         }
         100% {
-            text-shadow: -1em -0.125em 0.25em rgba($DARK_VIOLET, 0),
-            -1em -0.125em 0.25em rgba($DARK_GOLD, 0),
-            1em -0.125em 0.25em rgba($DARK_BLUE, 0),
-            1em -0.125em 0.25em rgba($DARK_RED, 0);
+            text-shadow: -1em -0.125em 0.25em rgba($WHITE, 0),
+            -1em -0.125em 0.25em rgba($WHITE, 0),
+            1em -0.125em 0.25em rgba($WHITE, 0),
+            1em -0.125em 0.25em rgba($WHITE, 0);
         }
     }
     .title {
-        color: $GREEN;
+        color: $WHITE;
         font-size: 3.5rem;
         animation: CityLights_shine 5s linear infinite;
     }
