@@ -1,11 +1,12 @@
 <template>
     <h3 class="WakeUp">
-        <span class="word1">WAKE</span>
-        <span class="word2">UP</span>
+        <span class="word1">wake</span>
+        <span class="word2">up</span>
     </h3>
 </template>
 
 <script>
+export default {}
 </script>
 
 <style lang="scss" scoped>
@@ -42,6 +43,7 @@
     }
     .word1,
     .word2 {
+        font-weight: bold;
         display: block;
         animation-name: WakeUp_show, WakeUp_popWord;
         animation-duration: 5s;
@@ -54,7 +56,7 @@
         transform: rotateX(90deg);
         padding: 0 2rem;
         animation-delay: 1.5s, 1.5s;
-        color: $GOLD;
+        color: $GREEN;
     }
 }
 

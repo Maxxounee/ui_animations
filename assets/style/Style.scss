@@ -8,7 +8,16 @@ mark {
 	background-color: unset;
 }
 body {
-	font-family: "Roboto", Vidaloka, serif;
+	font-family: "JetBrains", 'Roboto', monospace;
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'JetBrains';
+	src: url("../fonts/JetBrainsMono-Bold.ttf") format('truetype');
+}
+@font-face {
+	font-family: 'JetBrains';
+	src: url("../fonts/JetBrainsMono-Regular.ttf") format('truetype');
 }
 @mixin div50 {
 	position: relative;
@@ -35,5 +44,11 @@ body {
 }
 $BLACK: #1e1e1e;
 $WHITE: #f8f8f8;
-$BLUE: #63aebb;
+$PINK: #FF40B4;
 $GOLD: #eec84b;
+$GREEN: #00FF5F;
+$BLUE: #4A40FF;
+$DARK_GOLD: #A67F00;
+$DARK_VIOLET: #A60065;
+$DARK_BLUE: #0900A6;
+$DARK_RED: #A61D00;

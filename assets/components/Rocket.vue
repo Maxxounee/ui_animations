@@ -137,7 +137,6 @@ export default {
         position: absolute;
         animation-delay: var(--i);
         opacity: 0;
-        text-transform: uppercase;
     }
 }
 </style>
