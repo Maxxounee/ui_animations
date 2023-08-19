@@ -1,45 +1,38 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
 }
-
 mark {
-  background-color: unset;
+	background-color: unset;
 }
-
 body {
-  font-family: "Roboto", Vidaloka, serif;
+	font-family: "Roboto", Vidaloka, serif;
 }
-
 @mixin div50 {
-  position: relative;
-  height: 50vh;
-  width: 100vw;
-  overflow: hidden;
+	position: relative;
+	height: 50vh;
+	width: 100vw;
+	overflow: hidden;
 }
-
 @mixin div100 {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
 }
-
 @mixin flexCenter {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-
 @mixin flexColumnCenter {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
-
-
 $BLACK: #1e1e1e;
 $WHITE: #f8f8f8;
 $BLUE: #63aebb;
