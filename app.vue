@@ -1,12 +1,25 @@
 <template>
     <div class="wrapper">
-        <WakeUp/>
-        <Ghost/>
-        <Rave/>
-        <Rocket/>
-        <CityLights/>
-        <HelloWorld/>
-        <LiveForever/>
+        <Lenis @scroll="test">
+            <!--            <WakeUp/>-->
+            <!--            <Ghost/>-->
+            <!--            <Rave/>-->
+            <!--            <Rocket/>-->
+            <!--            <CityLights/>-->
+            <!--            <HelloWorld/>-->
+            <!--            <LiveForever/>-->
+            <div
+                v-for="item in 10"
+                class="test"
+                v-parsec="{translateY: Math.random(), rotate: Math.random()}"
+            >
+                <p v-parsec="{translateY: Math.random(), rotate: Math.random()}" v-for="text in 10">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, aperiam assumenda debitis, eaque
+                    earum fugiat laborum laudantium magnam magni molestias nihil nostrum perferendis repudiandae sunt
+                    vero! Iure sapiente tempora totam?
+                </p>
+            </div>
+        </Lenis>
     </div>
 </template>
 
@@ -36,6 +49,14 @@ export default {
         };
     },
     mounted() {
+    },
+    directives: {
+        // parsec,
+    },
+    methods: {
+        test(e, k, l) {
+            // console.log(e)
+        }
     },
 }
 </script>

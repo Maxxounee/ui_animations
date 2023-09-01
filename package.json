@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.11",
+    "nuxt-lenis": "^1.0.1",
     "pinia": "^2.1.6",
     "sass": "^1.66.1",
     "vue": "^3.3.4"
